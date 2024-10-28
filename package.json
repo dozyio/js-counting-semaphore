@@ -1,19 +1,20 @@
 {
   "name": "counting-semaphore",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A JS/TS counting semaphore implementation",
-  "main": "dist/semaphore.js",
+  "main": "./dist/counting-semaphore.js",
   "type": "module",
+  "module": "./dist/counting-semaphore.js",
   "author": "dozyio",
   "license": "MIT",
+  "files": ["dist"],
   "keywords": [
     "semaphore",
     "typescript"
   ],
   "exports": {
     ".": {
-      "types": "./dist/src/index.d.ts",
-      "import": "./dist/src/index.js"
+      "import": "./dist/counting-semaphore.js"
     }
   },
   "eslintConfig": {
